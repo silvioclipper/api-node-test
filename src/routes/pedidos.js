@@ -3,20 +3,20 @@ const router = express. Router();
 
 router.get('/' , (req, res, next) =>{
     res.status(200).send({
-        mensagem: 'Catalogo de produto'
+        mensagem: 'Catalogo de pedido'
     });
 });
 
 router.post('/', (req, res, next) => {
     res.status(201).send({
-        mensagem: 'Cadastro de produtos'
+        mensagem: 'Cadastro de pedidos'
     })
 });
 
-router.get('/:id_produto', (req,res, next) => {
-    const id = req.params.id_produto;
+router.get('/:id_pedido', (req,res, next) => {
+    const id = req.params.id_pedido;
     res.status(200).send({
-        mensagem: 'Identificando um produto.',
+        mensagem: 'Identificando um pedido.',
         id: id
     });
 });
