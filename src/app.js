@@ -7,6 +7,7 @@ const rotaPedidos = require('./routes/pedidos')
 
 app.use(express.json())
 app.use(morgan('dev'));
+// app.use(cors());
 app.use('/produtos', rotaProdutos); 
 app.use('/pedidos', rotaPedidos);
 
