@@ -1,9 +1,0 @@
-{
-    "env" : {
-       "MYSQL_USER" : "clipper",
-       "MYSQL_PASSWORD" : "Y0k02015",
-       "MYSQL_DATABASE" : "clipper",
-       "MYSQL_HOST" : "mysql669.umbler.com",
-       "MYSQL_PORT": 41890 
-}
-}
